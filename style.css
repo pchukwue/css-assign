@@ -1,0 +1,71 @@
+h1{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.paragraph-one{
+    border-style: double;
+    border-width: 20px;
+    font-style: italic;
+    padding: 10px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blue;
+    border-color: chartreuse;
+    color: white;
+    
+}
+
+.paragraph-two{
+    border-style: double;
+    border-width: 5px;
+    background-color: lightblue;
+    color: yellow;
+    background-color: black;
+    margin: 10pt;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    }
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px
+} 
+
+.flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+     background-color: red;
+    color: white;
+    
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+  }
+
+  .flex-inner {
+    justify-content: space-between;
+  }
+
+  .flex-outer{
+    background-color: lightblue;
+  }
+
+
+    
+
+
+
+
+
